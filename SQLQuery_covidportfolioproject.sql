@@ -1,3 +1,7 @@
+
+-- Seeing all the columns using '*' 
+-- Ordering by location and date 
+
 SELECT *
 FROM PortfolioProject..CovidDeaths
 where continent is not null
@@ -46,6 +50,8 @@ FROM PortfolioProject..CovidDeaths
 WHERE continent is not null
 GROUP BY location,population
 ORDER BY PercentPopulationInfected DESC
+
+
 
 -- Countries with Highest Death Count per Population
 
